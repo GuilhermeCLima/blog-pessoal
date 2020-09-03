@@ -12,6 +12,7 @@ export class PostTemaComponent implements OnInit {
 
     tema:Tema = new Tema()
     listaTemas:Tema[]
+    idTema:number
   constructor(
     private temaService: TemaService,
     private router: Router
